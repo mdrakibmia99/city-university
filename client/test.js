@@ -79,3 +79,12 @@ const obj = {
 
 console.log(JSON.stringify(obj));
 //test console.log(test)
+
+const obj2= {
+  name: 'Mezba',
+  role: 'mentor',
+  age: 18,
+  greet: () => {
+    return 'Hello World';
+  },
+};
